@@ -5,6 +5,7 @@
 *::before,
 *::after {
   box-sizing: border-box;
+  padding: 0;
 }
 
 /* Prevent font size inflation */
@@ -89,4 +90,65 @@ textarea:not([rows]) {
 /* Anything that has been anchored to should have extra scroll margin */
 :target {
   scroll-margin-block: 5ex;
+}
+
+/* END OF CSS RESET */
+
+body {
+  background-color: #f7f7f7;
+}
+
+.main-container {
+  background-color: aqua;
+  width: 95vw;
+  height: 95vh;
+  margin: 50px auto;
+  border-radius: 40px;
+  background-image: url(/assets/Foto-Kompresim-bg.avif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+header {
+  width: 100%;
+  height: 10%;
+  background-color: transparent;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  border-bottom: 1px solid rgba(223, 218, 218, 0.8);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 75px;
+}
+
+header ul {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+  color: white;
+}
+
+header button {
+  background-color: #03b3ff;
+  width: 12%;
+  padding: 1px 12px;
+  height: 60%;
+  cursor: pointer;
+  border: none;
+  border-radius: 12px;
+}
+
+header img {
+  width: 170px;
+}
+
+.sample {
+  background-color: red;
+  width: 100%;
+  height: 90vh;
 }
