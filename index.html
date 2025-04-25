@@ -11,6 +11,12 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.12.2/lottie.min.js"
+      integrity="sha512-jEnuDt6jfecCjthQAJ+ed0MTVA++5ZKmlUcmDGBv2vUI/REn6FuIdixLNnQT+vKusE2hhTk2is3cFvv5wA+Sgg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
   </head>
   <body>
     <div class="main-container">
@@ -23,13 +29,15 @@
         /></a>
 
         <ul>
-          <li><a href="">Chi Siamo</a></li>
           <li><a href="">I Nostri Servizi</a></li>
-          <li><a href="">Realizzazioni</a></li>
+          <li><a href="">Chi Siamo</a></li>
           <li><a href="">Contattaci</a></li>
         </ul>
 
-        <button class="lg-button">Preventivo Gratuito</button>
+        <button class="lg-button">
+          Preventivo Gratuito <br />
+          +333 333 333 302
+        </button>
         <button class="mobile-btn">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -45,6 +53,24 @@
           </svg>
         </button>
       </header>
+      <div class="dt-cta">
+        <p>Traslocare non è mai stato così facile!</p>
+        <div class="dt-cta-child">
+          <p>Chiama ora per un preventivo!</p>
+        </div>
+        <div class="dt-cta-wp">
+          <a href="">
+            <dotlottie-player
+              src="https://lottie.host/02bdf3f0-96d1-4f52-9539-4990b7b41027/81In6kHsv2.lottie"
+              background="transparent"
+              speed="1"
+              style="width: 75px; height: 75px"
+              loop
+              autoplay
+            ></dotlottie-player>
+          </a>
+        </div>
+      </div>
     </div>
     <!-- Website Loader Code - Start  -->
 
@@ -117,9 +143,95 @@
       </div>
     </div>
     <div class="sample">
-      <div class="sample-childrens"></div>
-      <div class="sample-childrens"></div>
-      <div class="sample-childrens"></div>
+      <h1>I Nostri Servizi</h1>
+      <div class="cards">
+        <div class="cards-childrens">
+          <div class="card-lottie" id="animation-transport">
+            <script>
+              const animationT = bodymovin.loadAnimation({
+                container: document.getElementById("animation-transport"),
+                path: "json1.json",
+                render: "svg",
+                autoplay: "true",
+                name: "animation transport",
+              });
+            </script>
+          </div>
+          <div class="card-text">Transporti Regionali e Nazionali</div>
+        </div>
+        <div class="cards-childrens">
+          <div class="card-lottie card-2">
+            <dotlottie-player
+              src="https://lottie.host/56105490-87fe-4e82-94eb-91ee67cd1fd0/NC4nFzZyZA.lottie"
+              background="transparent"
+              speed="1"
+              style="width: 250px; height: 250px"
+              loop
+              autoplay
+              style="justify-self: center; align-self: center"
+            ></dotlottie-player>
+          </div>
+          <div class="card-text">Servizio Di Imballaggio</div>
+        </div>
+        <div class="cards-childrens">
+          <div class="card-lottie" id="animation3">
+            <script>
+              const animation3 = bodymovin.loadAnimation({
+                container: document.getElementById("animation3"),
+                path: "json3.json",
+                render: "svg",
+                autoplay: "true",
+                name: "animation3",
+              });
+            </script>
+          </div>
+          <div class="card-text">Smontaggio e rimontaggio mobili</div>
+        </div>
+        <div class="cards-childrens">
+          <div class="card-lottie" id="animation4">
+            <script>
+              const animation4 = bodymovin.loadAnimation({
+                container: document.getElementById("animation4"),
+                path: "json4.json",
+                render: "svg",
+                autoplay: "true",
+                name: "animation4",
+              });
+            </script>
+          </div>
+          <div class="card-text">Porteraggio</div>
+        </div>
+      </div>
     </div>
+
+    <section class="Chi-Siamo">
+      <h1>Chi Siamo</h1>
+      <div class="cs-container1">
+        <img
+          class="florence"
+          src="/assets/Chat GPT Florence1 (1).avif"
+          alt="Illustration di Marku Traslochi e citta di Firenze or Florence in english"
+        />
+        <div class="cs-text-1">
+          Siamo un'azienda di traslochi con sede nella regione di Firenze. Con
+          anni di esperienza nel settore e centinaia di clienti soddisfatti,
+          siamo pronti a soddisfare tutte le vostre esigenze con prezzi chiari e
+          competitivi e un servizio eccellente.
+        </div>
+        <div class="cs-numbers">
+          <div>Clienti Soddisfatti</div>
+          <div>200+</div>
+        </div>
+      </div>
+    </section>
+    <section class="Contattaci">
+      <h1>Contattaci</h1>
+      <div class="Contattaci-container"></div>
+    </section>
+    <script
+      src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs"
+      type="module"
+    ></script>
+    <script src="/main.js"></script>
   </body>
 </html>
