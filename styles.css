@@ -379,7 +379,8 @@ header img {
 
   .main-text-c1 {
     position: absolute;
-    height: 20%;
+    height: auto;
+    padding: 20px 0;
     width: 100%;
     bottom: 0px;
     left: 0px;
@@ -412,7 +413,7 @@ header img {
 
   .main-text-c2 {
     display: flex;
-    flex-wrap: row;
+    flex-wrap: wrap;
     gap: 20px;
     color: #fff;
     font-weight: bold;
