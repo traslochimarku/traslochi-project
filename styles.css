@@ -216,10 +216,6 @@ header button {
   border-radius: 12px;
 }
 
-header button:hover {
-  background-color: #b99dd9;
-}
-
 .lg-button {
   font-family: "Manrope", sans-serif;
   font-weight: 600;
