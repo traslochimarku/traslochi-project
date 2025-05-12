@@ -61,3 +61,26 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 });
+
+/* Javascript Slider Code Starts Here */
+
+// let slider = document.querySelector(".slider");
+// let nextBtn = document.getElementById("next");
+// let prevBtn = document.getElementById("prev");
+
+// nextBtn.onclick = () => {
+//   slider.append(slider.querySelector("img:first-child"));
+// };
+
+// prevBtn.onclick = () => {
+//   slider.preppend(slider.querySelector(img));
+// };
+
+const slider = document.querySelector(".slider");
+
+function nextSlide() {
+  const firstImage = slider.querySelector("img:first-child");
+  slider.append(firstImage);
+}
+
+setInterval(nextSlide, 3000);
