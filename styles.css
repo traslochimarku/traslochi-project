@@ -760,6 +760,11 @@ header img {
     height: 60px;
     cursor: pointer;
   }
+
+  .nav-mob-buttons {
+    /* display: block; */
+    /* gap: 10px; */
+  }
 }
 
 /* Slider CSS code starts here */
@@ -768,7 +773,25 @@ header img {
   display: none;
 }
 
+.nav-mob-buttons {
+  display: none;
+}
+
 @media (max-width: 1250px) {
+  .nav-mob-buttons {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .svg-phone {
+    filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(7500%)
+      hue-rotate(339deg) brightness(99%) contrast(102%);
+    height: 35px;
+    width: 35px;
+    transform: translate(0, 6px);
+  }
+
   .slider {
     display: block;
   }
