@@ -837,3 +837,76 @@ header img {
     font-family: "Manrope";
   }
 }
+
+.blog-container {
+  height: auto;
+}
+
+.blog-post-1 {
+  margin: 0 auto;
+  width: 80%;
+  /* border-bottom: 1px solid rgba(223, 218, 218, 0.8); */
+  padding-bottom: 20px;
+}
+
+.blog-post-1 h2 {
+  text-align: center;
+  font-family: "Manrope", sans-serif;
+  padding-bottom: 20px;
+}
+
+.blog-post-1 p {
+  margin-left: 40px;
+  font-family: "Manrope", sans-serif;
+}
+
+.link-blog {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.blog-post-2 {
+  width: 80%;
+  /* border-bottom: 1px solid rgba(223, 218, 218, 0.8); */
+  padding-bottom: 20px;
+  margin: 0 auto;
+}
+
+.blog-post-2 h2 {
+  text-align: center;
+  font-family: "Manrope", sans-serif;
+  padding-bottom: 20px;
+}
+
+.blog-post-2 p {
+  margin-left: 40px;
+  font-family: "Manrope", sans-serif;
+}
+
+hr {
+  margin: 20px 0;
+}
+
+.cont-links-blog svg {
+  width: 75px;
+  height: 75px;
+  margin-left: ;
+}
+
+.wp1 {
+  margin-left: 220px;
+}
+
+.wp2 {
+  margin-left: 70px;
+}
+
+.main-container-1 {
+  background-color: white;
+}
+
+@media (max-width: 1250px) {
+  .wp2 {
+    margin-left: 170px;
+  }
+}
