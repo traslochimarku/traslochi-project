@@ -588,10 +588,10 @@ header img {
 }
 
 .cont-links {
-  width: 50%;
+  width: 55%;
   background-color: #fff;
   border-radius: 20px;
-  height: 10vh;
+  height: 13vh;
   /* border: 1px solid black; */
   box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
   display: flex;
