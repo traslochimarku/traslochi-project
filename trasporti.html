@@ -108,11 +108,22 @@
     <section class="Blog-section" id="Blog">
       <h1>TRASPORTI</h1>
       <div class="img-container">
+        <div class="card-lottie" class="lottie-transport" id="animation-transport">
+              <script>
+                const animationT = bodymovin.loadAnimation({
+                  container: document.getElementById("animation-transport"),
+                  path: "json1.json",
+                  render: "svg",
+                  autoplay: "true",
+                  name: "animation transport",
+                });
+              </script>
+            </div>
       </div>
       <div class="blog-container">
         <div class="blog-post-1">
           <h2>
-            Affidabilità e velocità: il servizio di trasporto di Marku SRL
+            Trasporti Regionali e Nazionali + Internazionali
           </h2>
           <p>
             Situata nel cuore della Toscana, Marku SRL è una realtà dinamica
