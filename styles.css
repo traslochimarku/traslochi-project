@@ -459,6 +459,10 @@ header img {
   bottom: 33%;
 }
 
+.img-cta {
+  height: 50px;
+}
+
 /* Chi Siamo Section */
 .Chi-Siamo {
   padding: 80px 0;
