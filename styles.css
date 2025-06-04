@@ -452,6 +452,13 @@ header img {
   }
 }
 
+#dt-wp-text {
+  font-size: 10px;
+  position: absolute;
+  left: 47%;
+  bottom: 33%;
+}
+
 /* Chi Siamo Section */
 .Chi-Siamo {
   padding: 80px 0;
