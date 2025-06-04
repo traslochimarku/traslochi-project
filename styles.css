@@ -478,10 +478,10 @@ header img {
   font-family: "DM Sans";
   font-size: 2rem;
   font-weight: 800;
-  text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.26);
+  /* text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.26); */
   padding: 30px;
   text-align: center;
-  padding: 50px 0;
+  padding: 20px 0;
 }
 
 .florence {
@@ -859,6 +859,7 @@ header img {
 .blog-post-1 p {
   margin-left: 40px;
   font-family: "Manrope", sans-serif;
+  text-wrap: pretty;
 }
 
 .link-blog {
@@ -910,6 +911,13 @@ hr {
   .wp2 {
     margin-left: 170px;
   }
+
+  .blog-post-1 {
+    margin-top: 20px;
+    margin-left: 5px;
+    font-size: 18px;
+    width: 90%;
+  }
 }
 
 /* CSS FOR SERVICES PAGES */
@@ -924,11 +932,76 @@ hr {
   margin-bottom: 20px;
 }
 
+.trasport-img {
+  display: block !important;
+  width: 80%;
+  margin: 0 auto;
+  box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05),
+    0 15px 40px rgba(166, 173, 201, 0.2);
+  margin-bottom: 30px;
+}
+
+.svg-container {
+  width: 80%;
+  height: 40vh;
+  background-color: transparent;
+  margin: 0 auto;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.svg-child {
+  width: 50%;
+  height: 90%;
+  background-color: transparent;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "DM Sans", sans-serif;
+  color: black;
+  font-weight: 700;
+  gap: 30px;
+}
+
+.text-container-svg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.svg-content {
+  width: 90px;
+}
+
 @media (max-width: 1250px) {
   .img-container {
     width: 100%;
     height: 33vh;
     border-radius: 0;
     margin-top: -20px;
+  }
+
+  .trasport-img {
+    display: block !important;
+    width: 100%;
+    margin: 0 auto;
+    box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05),
+      0 15px 40px rgba(166, 173, 201, 0.2);
+  }
+
+  .svg-container {
+    width: 80%;
+    height: auto;
+    background-color: transparent;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    gap: 80px;
   }
 }
