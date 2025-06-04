@@ -1015,4 +1015,8 @@ hr {
     align-items: center;
     gap: 80px;
   }
+
+  .svg-child {
+    flex-direction: column-reverse;
+  }
 }
