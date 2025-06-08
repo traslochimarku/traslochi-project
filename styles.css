@@ -552,7 +552,14 @@ header img {
   margin: 0 auto;
 }
 
+#id-imballaggio {
+  margin: ;
+}
+
 @media (max-width: 1250px) {
+  #id-imballaggio {
+    margin: 0 auto;
+  }
   .florence {
     border-radius: 10px;
     box-shadow: 1px 2px 4px rgba(23, 23, 23, 0.8);
