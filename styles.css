@@ -281,6 +281,14 @@ header img {
   .sample {
     padding-top: 180px;
   }
+
+  #europa-id {
+    padding-bottom: 40px;
+  }
+
+  #padding-prato {
+    padding-top: 40px;
+  }
 }
 
 .sample h1 {
@@ -1030,4 +1038,15 @@ hr {
   .svg-child {
     flex-direction: column-reverse;
   }
+}
+
+.img-cont-imb {
+  display: flex;
+  justify-content: center;
+  gap: 4px;
+}
+
+.img-imb {
+  /* width: 40%;
+  height: 40%; */
 }
